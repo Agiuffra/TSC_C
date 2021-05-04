@@ -104,7 +104,7 @@ Hay tipos de variables relacionados con el almacenamiento:
   I|^|&|~|I=|^=|&=
   -|-|-|-|--|--|--
 * desplazamiento
-  >>|<<|>>=|<<=
+  <<|>>|<<=|>>=
   --|--|---|---
 
 ### Decisiones
