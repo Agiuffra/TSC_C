@@ -1,20 +1,20 @@
-#Intro a C
+# Intro a C
 
-##Ventajas
+## Ventajas
 * Lenguaje de programación de propósito general.
 * Es de nivel más bajo que la mayoría, más flexible.
 * Permite la creación de programas detallados y compactos.
 * Un vasto ecosistema y portabilidad
 
-##Estructura del Programa
+## Estructura del Programa
 * Realiza una tarea en particular.
 * Finaliza con ";".
 * Las funciones pueden llamarse desde otras funciones.
 * Solo hay un "main".
 * Los comentarios son para aclarar el programa.
 
-##Fundamentos:
-###Funciones
+## Fundamentos:
+### Funciones
 Todas las funciones tienen un tipo de retorno y uno o varios argumentos. Estas deben comenzar con una letra del alfabeto o "_".
 
 **retrono nombre_funcion(argumento)**
@@ -51,7 +51,7 @@ float division(int a, int b)
 }
 ```
 
-###Variables
+### Variables
 Al declarar una variable, se debe especificar el tipo antes del nombre. Estos siguen las mismas reglas que las funciones.
 
 tipo|tamaño bits|rango de valores
@@ -87,7 +87,7 @@ Hay tipos de variables relacionados con el almacenamiento:
 * **extern**: se puede utilizar una variable global en archivos distintos.
 * **static**: las variables locales mantinen su valor aunque se vuelvan a inicializar. Los globaes se definen como "static" automáticamente.
 
-###Operadores
+### Operadores
 * aritméticos
   +|-|*|/|%
   -|-|-|-|-
@@ -107,7 +107,7 @@ Hay tipos de variables relacionados con el almacenamiento:
   >>|<<|>>=|<<=
   --|--|---|---
 
-###Decisiones
+### Decisiones
 ```
 if(condicion)
 {
@@ -133,7 +133,7 @@ switch(variable)
 }
 ```
 
-###Bucles
+### Bucles
 ```
 while(var<10)
 {
@@ -150,7 +150,7 @@ for(int i=0;i<50;i++)
 }
 ```
 
-###Directivas de Preprocesador
+### Directivas de Preprocesador
 "include" se utiliza para incluir archivos externos. "define" es par definir macros, convierten fragmentos de código en palabras breves.
 
 ```
@@ -161,7 +161,7 @@ for(int i=0;i<50;i++)
 #define MAX(a,b) (a<b) ? (b) : (a)
 ```
 
-###Punteros
+### Punteros
 Un puntero contiene la dirección de memoria de una variable. Utiliza los operadores * y &.
 
 ```
@@ -178,7 +178,7 @@ int main(void)
 }
 ```
 
-###Arreglos
+### Arreglos
 ```
 int Array[2];
 ...
@@ -193,13 +193,13 @@ char Array[2][2] =
 };
 ```
 
-###Cadenas
+### Cadenas
 ```
 char string1[] = "Cadena como arreglo \n";
 char *string2[] = "Cadena como puntero \n";
 ```
 
-###Estructura de Datos
+### Estructura de Datos
 ```
 struct Datos_persona
 {
